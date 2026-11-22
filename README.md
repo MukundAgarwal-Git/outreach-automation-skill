@@ -40,7 +40,7 @@ cd my-outreach-campaign
   "campaign_name": "Creator Con 2026",
   "data_source": {
     "type": "google_sheet",
-    "spreadsheet_id": "1aKThe7WMTjOl2JrQSjFIyhY6rI6sIYjF2cuyC6YTliI",
+    "spreadsheet_id": "YOUR_SPREADSHEET_ID_HERE",
     "tab": "Leads"
   },
   "scraping": {
@@ -48,9 +48,9 @@ cd my-outreach-campaign
     "apify_actor": "instagram-profile-scraper"
   },
   "email": {
-    "sender": "summits.nm.arithmos@gmail.com",
-    "cc": ["team@example.com"],
-    "attachment": "attachments/CreatorCon_Collaboration_Proposal.pdf",
+    "sender": "your@email.com",
+    "cc": ["manager@company.com"],
+    "attachment": "attachments/proposal.pdf",
     "dry_run": true
   },
   "templates": {
@@ -190,7 +190,7 @@ Your data source should have these columns:
     "batch_size": 40,
     "delay_minutes": 5,
     "track_column": "status",
-    "reply_search_query": "from:contact@example.com"
+    "reply_search_query": "from:your-contact@example.com"
   }
 }
 ```
@@ -238,7 +238,7 @@ cat > config.json << 'EOF'
   "campaign_name": "NM Arithmós Summit 2026",
   "data_source": {
     "type": "google_sheet",
-    "spreadsheet_id": "1aKThe7WMTjOl2JrQSjFIyhY6rI6sIYjF2cuyC6YTliI",
+    "spreadsheet_id": "YOUR_SPREADSHEET_ID_HERE",
     "tab": "Leads"
   },
   "scraping": {
@@ -246,9 +246,9 @@ cat > config.json << 'EOF'
     "apify_actor": "instagram-profile-scraper"
   },
   "email": {
-    "sender": "summits.nm.arithmos@gmail.com",
-    "cc": ["arya.nmarithmos@gmail.com"],
-    "attachment": "attachments/CreatorCon_Collaboration_Proposal.pdf",
+    "sender": "your@email.com",
+    "cc": ["manager@company.com"],
+    "attachment": "attachments/proposal.pdf",
     "dry_run": true
   },
   "templates": {

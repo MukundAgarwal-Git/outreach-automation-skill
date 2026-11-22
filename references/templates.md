@@ -34,8 +34,8 @@ Use these placeholders in your templates:
 | `{company}` | Company name | Google |
 | `{topic}` | Topic of conversation | AI in healthcare |
 | `{campaign}` | Campaign name | Creator Con 2026 |
-| `{sender}` | Your name | Mukund Agarwal |
-| `{sender_title}` | Your title | Member of Department – Summits |
+| `{sender}` | Your name | Your Name |
+| `{sender_title}` | Your title | Your Title |
 
 ## Template Types
 
@@ -62,6 +62,7 @@ Looking forward to hearing your thoughts.
 Best regards,
 {sender}
 {sender_title}
+[Organization]
 ```
 
 ### 2. Follow-up Email
@@ -117,6 +118,7 @@ Best regards,
 {sender}
 {sender_title}
 [Organization]
+[Organization]
 ```
 
 ### 4. Partnership Proposal
@@ -145,6 +147,7 @@ Looking forward to exploring this opportunity together.
 Best regards,
 {sender}
 {sender_title}
+[Organization]
 ```
 
 ### 5. Event Promotion
@@ -273,17 +276,17 @@ Create reusable template variables:
 ```json
 {
   "sender_info": {
-    "name": "Mukund Agarwal",
-    "title": "Member of Department – Summits",
-    "organization": "Arithmós | SVKM's Narsee Monjee College of Commerce & Economics",
-    "email": "summits.arithmos@gmail.com",
-    "phone": "+91 8217343277"
+    "name": "Your Name",
+    "title": "Your Title",
+    "organization": "Your Organization",
+    "email": "your@email.com",
+    "phone": "Your Phone"
   },
   "event_details": {
-    "name": "Arithmós Summit 2026",
-    "date": "14 December 2026",
-    "location": "Mumbai, India",
-    "attendees": "600–700 students and young professionals"
+    "name": "Your Event Name",
+    "date": "Event Date",
+    "location": "Event Location",
+    "attendees": "Expected Attendees"
   }
 }
 ```
@@ -326,14 +329,13 @@ We've attached our Summit Deck for your reference and would love to explore the 
 We look forward to hearing from you!
 
 Regards,
-Mukund Agarwal
-Member of Department – Summits
-Arithmós | SVKM's Narsee Monjee College of Commerce & Economics
+Your Name
+Your Title
+Your Organization
 
-+91 8217343277 | +91 9589969868
-summits.arithmos@gmail.com
-arya.nmarithmos@gmail.com
-mukund.nmarithmos@gmail.com
+Your Phone
+your@email.com
+manager@company.com
 ```
 
 ### Example 2: Creator Con Speaker Invitation (Female)
@@ -357,14 +359,13 @@ We've attached our Summit Deck for your reference and would love to explore the 
 We look forward to hearing from you!
 
 Regards,
-Mukund Agarwal
-Member of Department – Summits
-Arithmós | SVKM's Narsee Monjee College of Commerce & Economics
+Your Name
+Your Title
+Your Organization
 
-+91 8217343277 | +91 9589969868
-summits.arithmos@gmail.com
-arya.nmarithmos@gmail.com
-mukund.nmarithmos@gmail.com
+Your Phone
+your@email.com
+manager@company.com
 ```
 
 ### Example 3: Generic Business Outreach
@@ -387,6 +388,7 @@ Looking forward to your thoughts.
 Best regards,
 {sender}
 {sender_title}
+[Organization]
 ```
 
 ## Template Best Practices
