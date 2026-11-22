@@ -33,7 +33,7 @@ Use these placeholders in your templates:
 | `{last_name}` | Last name only | Doe |
 | `{company}` | Company name | Google |
 | `{topic}` | Topic of conversation | AI in healthcare |
-| `{campaign}` | Campaign name | Creator Con 2026 |
+| `{campaign}` | Campaign name | Your Campaign Name |
 | `{sender}` | Your name | Your Name |
 | `{sender_title}` | Your title | Your Title |
 
@@ -308,23 +308,21 @@ def load_template(template_name, variables):
 
 ## Template Examples from Real Campaigns
 
-### Example 1: Creator Con Speaker Invitation (Male)
+### Example 1: Speaker Invitation (Male)
 ```
-Subject: Creator Con - Collaboration Proposal | NM Arithmós x Mr. {full_name}
+Subject: Collaboration Proposal | {campaign} x Mr. {full_name}
 
 Hello Mr. {full_name} and Team!
 
-I'm reaching out on behalf of NM Arithmós, the Management & Strategy Fest of SVKM's Narsee Monjee College of Commerce & Economics, Mumbai. Ranked as India's 5th Most Popular UG College Fest on Unstop, Arithmós hosts 18+ events centred around business, management and strategy.
-
-We're currently organising Arithmós Summit 2026, scheduled for 14 December, which will bring together 600–700 students and young professionals for insightful conversations with individuals shaping their respective industries.
+I'm reaching out on behalf of {organization}, where we're organizing {campaign} on {event_date}. This event brings together {attendee_count} attendees for insightful conversations with individuals shaping their respective industries.
 
 For this year's edition, we would be honoured to invite you to join us as our keynote speaker. We believe that your journey and insights into {topics} would offer our audience a valuable opportunity to learn from your experiences, perspectives and work.
 
-Our inaugural Summit last year welcomed 650+ attendees, featuring Ms. Zareen Khan as the keynote speaker, alongside a finance panel featuring Mr. Devraj Pant, Mr. Kirtan Shah and other industry professionals.
+Our previous event welcomed {past_attendees} attendees, featuring {past_speaker_example} as the keynote speaker.
 
-Additionally, if there is a collaboration prospect between any of his ventures, we would be more than excited to hear about it and work on it.
+Additionally, if there is a collaboration prospect between any of your ventures, we would be more than excited to hear about it and work on it.
 
-We've attached our Summit Deck for your reference and would love to explore the possibility of him joining us for this year's edition. Please let us know if we could connect for a brief discussion.
+We've attached our event deck for your reference and would love to explore the possibility of you joining us for this year's edition. Please let us know if we could connect for a brief discussion.
 
 We look forward to hearing from you!
 
@@ -338,23 +336,21 @@ your@email.com
 manager@company.com
 ```
 
-### Example 2: Creator Con Speaker Invitation (Female)
+### Example 2: Speaker Invitation (Female)
 ```
-Subject: Creator Con - Collaboration Proposal | NM Arithmós x Ms. {full_name}
+Subject: Collaboration Proposal | {campaign} x Ms. {full_name}
 
 Hello Ms. {full_name} and Team!
 
-I'm reaching out on behalf of NM Arithmós, the Management & Strategy Fest of SVKM's Narsee Monjee College of Commerce & Economics, Mumbai. Ranked as India's 5th Most Popular UG College Fest on Unstop, Arithmós hosts 18+ events centred around business, management and strategy.
-
-We're currently organising Arithmós Summit 2026, scheduled for 14 December, which will bring together 600–700 students and young professionals for insightful conversations with individuals shaping their respective industries.
+I'm reaching out on behalf of {organization}, where we're organizing {campaign} on {event_date}. This event brings together {attendee_count} attendees for insightful conversations with individuals shaping their respective industries.
 
 For this year's edition, we would be honoured to invite you to join us as our keynote speaker. We believe that your journey and insights into {topics} would offer our audience a valuable opportunity to learn from your experiences, perspectives and work.
 
-Our inaugural Summit last year welcomed 650+ attendees, featuring Ms. Zareen Khan as the keynote speaker, alongside a finance panel featuring Mr. Devraj Pant, Mr. Kirtan Shah and other industry professionals.
+Our previous event welcomed {past_attendees} attendees, featuring {past_speaker_example} as the keynote speaker.
 
-Additionally, if there is a collaboration prospect between any of her ventures, we would be more than excited to hear about it and work on it.
+Additionally, if there is a collaboration prospect between any of your ventures, we would be more than excited to hear about it and work on it.
 
-We've attached our Summit Deck for your reference and would love to explore the possibility of her joining us for this year's edition. Please let us know if we could connect for a brief discussion.
+We've attached our event deck for your reference and would love to explore the possibility of you joining us for this year's edition. Please let us know if we could connect for a brief discussion.
 
 We look forward to hearing from you!
 

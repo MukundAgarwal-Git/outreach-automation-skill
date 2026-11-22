@@ -37,7 +37,7 @@ cd my-outreach-campaign
 
 ```json
 {
-  "campaign_name": "Creator Con 2026",
+  "campaign_name": "Your Campaign Name",
   "data_source": {
     "type": "google_sheet",
     "spreadsheet_id": "YOUR_SPREADSHEET_ID_HERE",
@@ -55,11 +55,11 @@ cd my-outreach-campaign
   },
   "templates": {
     "male": {
-      "subject": "Creator Con - Collaboration Proposal | NM Arithmós x Mr. {full_name}",
+      "subject": "Collaboration Proposal | {campaign} x Mr. {full_name}",
       "body": "Hello Mr. {full_name}..."
     },
     "female": {
-      "subject": "Creator Con - Collaboration Proposal | NM Arithmós x Ms. {full_name}",
+      "subject": "Collaboration Proposal | {campaign} x Ms. {full_name}",
       "body": "Hello Ms. {full_name}..."
     }
   },
@@ -124,11 +124,11 @@ Your data source should have these columns:
 
 ## 📊 Example Campaigns
 
-### Creator Con Speaker Outreach
+### Speaker Recruitment Campaign
 - Target: Instagram creators with 200K-10M followers
 - Platform: Instagram
 - Template: Male/Female speaker proposals
-- Attachment: Summit deck PDF
+- Attachment: Event deck PDF
 - Goal: Secure keynote speakers
 
 ### Job Opportunity Outreach
@@ -235,7 +235,7 @@ cd my-creator-outreach
 ```bash
 cat > config.json << 'EOF'
 {
-  "campaign_name": "NM Arithmós Summit 2026",
+  "campaign_name": "Your Campaign Name",
   "data_source": {
     "type": "google_sheet",
     "spreadsheet_id": "YOUR_SPREADSHEET_ID_HERE",
@@ -253,12 +253,12 @@ cat > config.json << 'EOF'
   },
   "templates": {
     "male": {
-      "subject": "Creator Con - Collaboration Proposal | NM Arithmós x Mr. {full_name}",
-      "body": "Hello Mr. {full_name} and Team!\n\nI'm reaching out on behalf of NM Arithmós..."
+      "subject": "Collaboration Proposal | {campaign} x Mr. {full_name}",
+      "body": "Hello Mr. {full_name} and Team!\n\nI'm reaching out on behalf of {organization}..."
     },
     "female": {
-      "subject": "Creator Con - Collaboration Proposal | NM Arithmós x Ms. {full_name}",
-      "body": "Hello Ms. {full_name} and Team!\n\nI'm reaching out on behalf of NM Arithmós..."
+      "subject": "Collaboration Proposal | {campaign} x Ms. {full_name}",
+      "body": "Hello Ms. {full_name} and Team!\n\nI'm reaching out on behalf of {organization}..."
     }
   },
   "sending": {

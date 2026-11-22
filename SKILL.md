@@ -6,7 +6,7 @@ description: |
 
 # Outreach Automation Skill
 
-A generic, configurable outreach workflow that works with any campaign, platform, or data source. Originally built for Creator Con outreach but now generalized for any professional outreach.
+A generic, configurable outreach workflow that works with any campaign, platform, or data source. Designed for any professional outreach scenario — speaker recruitment, job outreach, partnership proposals, product launches, and more.
 
 ## What This Skill Does
 
