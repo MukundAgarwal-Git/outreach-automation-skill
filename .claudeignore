@@ -1,0 +1,39 @@
+# Ignore these files when packaging the skill
+
+# Local configuration
+config.json
+.env
+.env.local
+
+# Temporary files
+temp/
+*.tmp
+*.bak
+
+# Cache files
+__pycache__/
+.cache/
+
+# Logs
+*.log
+logs/
+
+# Data files (keep in repo for examples)
+# data/
+
+# Attachments (large files)
+attachments/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git files
+.git/
+.gitignore
+
+# System files
+.DS_Store
+Thumbs.db

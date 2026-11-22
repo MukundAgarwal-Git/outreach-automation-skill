@@ -1,0 +1,5 @@
+platform_handle,profile_url,full_name,email,template,topic,status
+@creator1,https://instagram.com/creator1,John Doe,john@example.com,neutral,Business,ready
+@creator2,https://instagram.com/creator2,Jane Smith,jane@example.com,neutral,Technology,ready
+@creator3,https://instagram.com/creator3,Bob Johnson,,neutral,Finance,to_enrich
+@creator4,https://instagram.com/creator4,Alice Brown,,neutral,Marketing,to_enrich

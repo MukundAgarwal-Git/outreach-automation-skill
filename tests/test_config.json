@@ -1,0 +1,31 @@
+{
+  "test_campaign": {
+    "campaign_name": "Test Outreach Campaign",
+    "data_source": {
+      "type": "csv",
+      "path": "tests/test_contacts.csv"
+    },
+    "scraping": {
+      "platforms": ["instagram"],
+      "apify_actor": "instagram-profile-scraper"
+    },
+    "email": {
+      "sender": "test@example.com",
+      "cc": ["manager@example.com"],
+      "attachment": "tests/test_attachment.pdf",
+      "dry_run": true
+    },
+    "templates": {
+      "neutral": {
+        "subject": "Test Subject with {full_name}",
+        "body": "Test body with {full_name} and {topic}"
+      }
+    },
+    "sending": {
+      "client": "gmail",
+      "batch_size": 5,
+      "delay_minutes": 1,
+      "track_column": "status"
+    }
+  }
+}
