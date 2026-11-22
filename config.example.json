@@ -1,0 +1,39 @@
+{
+  "campaign_name": "Your Campaign Name",
+  "data_source": {
+    "type": "csv",
+    "path": "contacts.csv"
+  },
+  "scraping": {
+    "platforms": ["instagram"],
+    "apify_actor": "instagram-profile-scraper",
+    "output_csv": "data/scraped.csv"
+  },
+  "email": {
+    "sender": "your@email.com",
+    "cc": ["manager@example.com"],
+    "attachment": "attachments/proposal.pdf",
+    "dry_run": true,
+    "max_per_day": 40
+  },
+  "templates": {
+    "male": {
+      "subject": "Collaboration Proposal | {campaign} x Mr. {full_name}",
+      "body": "Hello Mr. {full_name} and Team!\n\nI'm reaching out on behalf of {organization}..."
+    },
+    "female": {
+      "subject": "Collaboration Proposal | {campaign} x Ms. {full_name}",
+      "body": "Hello Ms. {full_name} and Team!\n\nI'm reaching out on behalf of {organization}..."
+    },
+    "neutral": {
+      "subject": "Proposal | {campaign}",
+      "body": "Hello,\n\nI'm reaching out regarding..."
+    }
+  },
+  "sending": {
+    "client": "gmail",
+    "batch_size": 40,
+    "delay_minutes": 5,
+    "track_column": "status"
+  }
+}
